@@ -4,6 +4,7 @@ html, body
   background-size: cover;
   height: 100%;
   width: 100%;
+  min-width:940px;
 }
 
 .text-primary
