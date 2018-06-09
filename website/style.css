@@ -29,3 +29,112 @@ html, body
   font-family: "copperplate gothic bold";
   font-style: italic;
 }
+
+.disabled
+{
+  cursor: default;
+}
+
+.carousel-inner > .carousel-item > img
+{
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+}
+img
+{
+  border: 5px solid black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+  background-color: black;
+  padding: 15px;
+
+}
+
+.about-front-page
+{
+  margin-top: 100px;
+  background-color: black;
+  padding: 500px;
+}
+
+h1
+{
+  color: white;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -450px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+
+  border: 5px solid white;
+  padding: 5px;
+  background-color: rgba(192,192,192,.2);
+  border-radius: 10px;
+}
+
+p
+{
+  color: white;
+  text-align: left;
+  margin-left: -300px;
+  margin-top: 200px;
+  max-width: 400px;
+  font-size: 2em;
+  position: relative;
+  float: left;
+
+}
+
+.progress-bar
+{
+  border-radius: 20px;
+
+}
+
+.progress
+{
+  background-color: black;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 900px;
+  position: relative;
+}
+#first
+{
+  background-color: red;
+  font-size: 20px;
+
+}
+
+#second
+{
+  background-color: green;
+  font-size: 20px;
+
+}
+
+#third
+{
+  background-color: orange;
+  font-size: 20px;
+
+}
+
+#fourth
+{
+  background-color: purple;
+  font-size: 20px;
+
+}
+
+#fifth
+{
+  background-color: brown;
+  font-size: 20px;
+
+}
